@@ -1,0 +1,45 @@
+getgenv().ConfigsKaitun = {
+    ["Melee"] = {
+        ["God Human"] = true,
+    },
+
+    ["Sword"] = {
+        ["Saber"] = true,
+        ["Pole"] = false,
+        ["Midnight Blade"] = true,
+        ["Shisui"] = true,
+        ["Saddi"] = true,
+        ["Wando"] = true,
+        ["Rengoku"] = true,
+        ["True Triple Katana"] = true,
+        ["Yama"] = true,
+        ["Tushita"] = true,
+        ["Canvander"] = true,
+        ["Buddy Sword"] = true,
+        ["Twin Hooks"] = true,
+        ["Hallow Scythe"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+
+    ["Gun"] = {
+        ["Kabucha"] = true,
+        ["Venom Bow"] = true,
+        ["Skull Guitar"] = true,
+    },
+
+    ["Fruit"] = {
+        ["Main Fruit"] = {"Ice-Ice"},
+        ["Sec Fruit"] = {"Flame-Flame", "Ice-Ice", "Quake-Quake", "Light-Light", "Dark-Dark", "Spider-Spider", "Rumble-Rumble", "Magma-Magma", "Buddha-Buddha"},
+        ["Safe Fruit"] = {
+            "Dough-Dough",
+            "Dragon-Dragon"
+        },
+    },
+
+    ["Performance"] = {
+        ["Booster FPS"] = false,
+        ["Lock FPS"] = 120,
+        ["AFK Timeout"] = 150,
+    },
+}
+loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
